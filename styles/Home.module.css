@@ -1,0 +1,76 @@
+.background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_background{
+    position: absolute;
+    background-color: #fff;
+    padding: 51px 71px;
+    border: 1px solid #1E1E1E;
+}
+
+.box_background > p{
+    font-family: 'Butler';
+    font-size: 20px;
+    font-style: normal;
+    width: 400px;
+}
+
+.seasonal{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    align-items: center;
+    gap: 48px;
+}
+
+.headings{
+    font-family: 'Butler';
+    font-size: 20px;
+}
+
+.bouquet_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 135px;
+}
+
+.image_border{
+    border:1px solid #1E1E1E;
+}
+
+.bouquet_desc{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Karla';
+    font-size: 16px;
+}
+
+.view_more{
+    margin-left: auto;
+}
+
+.personalized{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    align-items: center;
+    gap: 48px;
+}
+.flower_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 135px;
+}
+
+.flower_column{
+    display: flex;
+    flex-direction: column;
+}

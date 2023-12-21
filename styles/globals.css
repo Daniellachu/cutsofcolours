@@ -1,0 +1,57 @@
+html{
+    max-width: 1440px;
+    margin: 0 108px;
+}
+
+:root{
+    --body-text: 16px;
+    --medium-text: 24px;
+    --subheading: 20px;
+    --secondary-font: "Karla";
+    --primary-font: "Butler";
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+
+@font-face {
+    font-family: 'Bultler';
+    src: url("/public/font/Butler.woff");   
+    font-weight: 300;
+    font-style: normal; 
+}
+
+body{
+    color: #1E1E1E;;
+}
+
+button{
+    width: 200px;
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid #1E1E1E;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+button:hover{
+    background-color: #1E1E1E;
+    transition: ease-in-out 1s;
+    color: #fff;
+}
+button:hover::after{
+    background-color: #1E1E1E;
+    transition: ease-out 2s;
+    color: #fff;
+}
+
+svg:hover{
+    background-color: #fff;
+}

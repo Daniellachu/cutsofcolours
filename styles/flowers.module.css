@@ -1,0 +1,58 @@
+
+.background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_background{
+    position: absolute;
+    background-color: #fff;
+    padding: 51px 71px;
+    border: 1px solid #1E1E1E;
+}
+
+.box_background > p{
+    font-family: 'Butler';
+    font-size: 20px;
+    font-style: normal;
+    width: 400px;
+}
+
+.flower_categories{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: fixed;
+    top: 250px;
+    z-index: 3;
+    gap: 10px;
+    margin-left: 200px;
+}
+
+.tab{
+    background-color: #fff;
+    padding: 25px 30px;
+    border: 1px solid #1E1E1E;
+    width: 150px;
+    text-align: center;
+}
+.tab:hover{
+    background-color: #1E1E1E;
+    padding: 25px 30px;
+    border: 1px solid #1E1E1E;
+    color: #fff;
+    width: 150px;
+    text-align: center;
+    transition: ease-in-out 1s;
+}
+
+.tab_title{
+    background-color: #fff;
+    border: 1px solid #1E1E1E;
+    padding: 20px;
+    text-align: center;
+}
